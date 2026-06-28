@@ -1,8 +1,10 @@
+
 # PathoInsight 🔬
 
 > **An AI-powered Retrieval-Augmented Generation (RAG) assistant for demystifying pathology reports.**
 
 PathoInsight helps patients understand their lab reports (CBC, LFT, KFT, Thyroid, Lipid profiles) by combining local document parsing, vector-based semantic search, and Google Gemini's advanced LLM with live Google Search grounding. It provides an empathetic, knowledgeable medical AI assistant that explains complex medical terminology in plain language.
+<img src="thumbnail.png" style="vertical-align: middle;">
 
 ---
 
