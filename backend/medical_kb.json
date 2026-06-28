@@ -1,0 +1,177 @@
+{
+  "categories": [
+    {
+      "id": "cbc",
+      "name": "Complete Blood Count (CBC)",
+      "description": "Evaluates overall health and detects conditions like anemia, infection, and clotting issues.",
+      "markers": {
+        "Hemoglobin": {
+          "min": 13.8, "max": 17.2, "unit": "g/dL",
+          "description": "A protein in red blood cells that carries oxygen throughout the body.",
+          "low_explanation": "Low hemoglobin (anemia) means your body's tissues are not receiving enough oxygen, which can cause fatigue, weakness, pale skin, and shortness of breath.",
+          "high_explanation": "High hemoglobin (erythrocytosis) can occur due to dehydration, smoking, living at high altitudes, or chronic lung conditions."
+        },
+        "Red Blood Cell (RBC)": {
+          "min": 4.5, "max": 5.9, "unit": "x10^6/uL",
+          "description": "Cells that carry oxygen from the lungs to the rest of the body.",
+          "low_explanation": "Low RBC count is typical of anemia, nutritional deficiencies (iron, B12, folate), or bone marrow disorders.",
+          "high_explanation": "High RBC count can indicate dehydration, congenital heart disease, sleep apnea, or smoking."
+        },
+        "White Blood Cell (WBC)": {
+          "min": 4.5, "max": 11.0, "unit": "x10^3/uL",
+          "description": "Cells that protect the body against infectious diseases and foreign invaders.",
+          "low_explanation": "Low WBC count (leukopenia) makes you more susceptible to infections. Can be caused by bone marrow issues, autoimmune disorders, or viral infections.",
+          "high_explanation": "High WBC count (leukocytosis) usually indicates an active infection, inflammation, stress, or immune response."
+        },
+        "Platelet Count": {
+          "min": 150, "max": 450, "unit": "x10^3/uL",
+          "description": "Small cell fragments involved in blood clotting and wound healing.",
+          "low_explanation": "Low platelets (thrombocytopenia) can cause easy bruising and prolonged bleeding. Can be triggered by immune responses, viral infections, or medications.",
+          "high_explanation": "High platelets (thrombocytosis) can lead to abnormal blood clots. Can be caused by inflammation, iron deficiency, or bone marrow disorders."
+        },
+        "Hematocrit": {
+          "min": 41.5, "max": 50.4, "unit": "%",
+          "description": "The proportion of red blood cells to the total volume of blood.",
+          "low_explanation": "Low hematocrit is another indicator of anemia or overhydration.",
+          "high_explanation": "High hematocrit indicates dehydration or conditions like polycythemia."
+        }
+      }
+    },
+    {
+      "id": "lft",
+      "name": "Liver Function Test (LFT)",
+      "description": "Measures enzymes, proteins, and bilirubin to assess how well the liver is functioning.",
+      "markers": {
+        "SGPT (ALT)": {
+          "min": 7, "max": 56, "unit": "U/L",
+          "description": "Alanine aminotransferase — an enzyme found mostly in liver cells.",
+          "low_explanation": "Low ALT levels are generally normal and expected.",
+          "high_explanation": "Elevated ALT is a strong indicator of liver injury. Common causes include fatty liver disease, alcohol use, viral hepatitis, or medications like acetaminophen."
+        },
+        "SGOT (AST)": {
+          "min": 10, "max": 40, "unit": "U/L",
+          "description": "Aspartate aminotransferase — found in the liver, heart, and muscles.",
+          "low_explanation": "Low AST is normal and healthy.",
+          "high_explanation": "Elevated AST suggests liver injury, muscle damage, or cardiac stress. When elevated with ALT, it strongly points to liver issues."
+        },
+        "Total Bilirubin": {
+          "min": 0.2, "max": 1.2, "unit": "mg/dL",
+          "description": "A byproduct of red blood cell breakdown processed by the liver.",
+          "low_explanation": "Low bilirubin is generally not a cause for concern.",
+          "high_explanation": "High bilirubin can cause jaundice (yellowing of skin/eyes). Can indicate liver congestion, bile duct blockage, or Gilbert's syndrome."
+        },
+        "Alkaline Phosphatase (ALP)": {
+          "min": 44, "max": 147, "unit": "U/L",
+          "description": "An enzyme related to the bile ducts, gallbladder, and bones.",
+          "low_explanation": "Low ALP is rare but can indicate malnutrition or zinc deficiency.",
+          "high_explanation": "High ALP suggests bile duct obstruction, liver disease, or bone conditions."
+        },
+        "Albumin": {
+          "min": 3.5, "max": 5.0, "unit": "g/dL",
+          "description": "The main protein made by the liver that keeps fluid from leaking out of blood vessels.",
+          "low_explanation": "Low albumin can indicate liver disease, kidney disease, malnutrition, or chronic inflammation.",
+          "high_explanation": "High albumin is almost always caused by dehydration."
+        }
+      }
+    },
+    {
+      "id": "kft",
+      "name": "Kidney Function Test (KFT)",
+      "description": "Evaluates how well the kidneys are filtering waste products from the blood.",
+      "markers": {
+        "Serum Creatinine": {
+          "min": 0.74, "max": 1.35, "unit": "mg/dL",
+          "description": "A waste product from muscle metabolism filtered out by the kidneys.",
+          "low_explanation": "Low creatinine may indicate low muscle mass or malnutrition.",
+          "high_explanation": "High creatinine indicates reduced kidney filtering capacity (reduced GFR). Can result from dehydration, kidney disease, or high protein intake."
+        },
+        "Blood Urea Nitrogen (BUN)": {
+          "min": 7, "max": 20, "unit": "mg/dL",
+          "description": "Measures the amount of nitrogen in the blood that comes from urea, a waste product of protein metabolism.",
+          "low_explanation": "Low BUN may indicate malnutrition, liver disease, or overhydration.",
+          "high_explanation": "High BUN suggests decreased kidney function, dehydration, high protein intake, or GI bleeding. Often interpreted alongside creatinine (BUN/Creatinine ratio)."
+        },
+        "Uric Acid": {
+          "min": 3.5, "max": 7.2, "unit": "mg/dL",
+          "description": "A chemical produced when the body breaks down purines found in certain foods and drinks.",
+          "low_explanation": "Low uric acid is generally benign but can occasionally be seen with certain medications or rare genetic conditions.",
+          "high_explanation": "High uric acid (hyperuricemia) can lead to gout (painful joint inflammation) or kidney stones. Often associated with a high-purine diet, alcohol consumption, or kidney disease."
+        },
+        "eGFR": {
+          "min": 60, "max": 120, "unit": "mL/min/1.73m²",
+          "description": "Estimated Glomerular Filtration Rate — the most accurate measure of kidney function.",
+          "low_explanation": "Low eGFR indicates chronic kidney disease (CKD). Stages: 45-59 (mild-moderate), 30-44 (moderate-severe), <30 (severe). Requires urgent medical follow-up.",
+          "high_explanation": "eGFR above 60 is generally considered normal. Very high values can sometimes occur in early diabetes mellitus (hyperfiltration)."
+        },
+        "Sodium (Na+)": {
+          "min": 136, "max": 145, "unit": "mEq/L",
+          "description": "An electrolyte that controls fluid balance and nerve/muscle function.",
+          "low_explanation": "Low sodium (hyponatremia) can cause confusion, fatigue, muscle cramps, and in severe cases, seizures. Often from excess water intake, kidney issues, or heart failure.",
+          "high_explanation": "High sodium (hypernatremia) can cause intense thirst, confusion, and lethargy. Usually from dehydration or inability to access water."
+        },
+        "Potassium (K+)": {
+          "min": 3.5, "max": 5.0, "unit": "mEq/L",
+          "description": "An electrolyte essential for heart and muscle function.",
+          "low_explanation": "Low potassium (hypokalemia) can cause muscle weakness, leg cramps, and dangerous heart arrhythmias. Often from vomiting, diarrhea, or diuretic medications.",
+          "high_explanation": "High potassium (hyperkalemia) can also cause dangerous heart rhythm abnormalities. Often from kidney disease, ACE inhibitor medications, or excessive supplementation."
+        }
+      }
+    },
+    {
+      "id": "thyroid",
+      "name": "Thyroid Profile",
+      "description": "Assesses thyroid gland function which controls metabolism, energy, and many vital body functions.",
+      "markers": {
+        "TSH (Thyroid Stimulating Hormone)": {
+          "min": 0.4, "max": 4.0, "unit": "mIU/L",
+          "description": "Produced by the pituitary gland to stimulate the thyroid to produce hormones. The most sensitive test for thyroid disorders.",
+          "low_explanation": "Low TSH indicates the thyroid is overactive (hyperthyroidism) — producing too much hormone. Symptoms: rapid heartbeat, weight loss, anxiety, heat intolerance, tremors.",
+          "high_explanation": "High TSH indicates the thyroid is underactive (hypothyroidism) — not producing enough hormone. Symptoms: fatigue, weight gain, constipation, cold intolerance, depression."
+        },
+        "Free T4 (Thyroxine)": {
+          "min": 0.8, "max": 1.8, "unit": "ng/dL",
+          "description": "The main hormone produced and released by the thyroid gland.",
+          "low_explanation": "Low Free T4 confirms hypothyroidism (underactive thyroid). Usually treated with daily levothyroxine (synthetic T4) tablets.",
+          "high_explanation": "High Free T4 confirms hyperthyroidism (overactive thyroid). Can be caused by Graves' disease, toxic nodular goiter, or excess iodine intake."
+        },
+        "Free T3 (Triiodothyronine)": {
+          "min": 2.3, "max": 4.2, "unit": "pg/mL",
+          "description": "The active form of thyroid hormone that directly affects metabolism in cells.",
+          "low_explanation": "Low Free T3 is associated with hypothyroidism or 'low T3 syndrome' seen during severe illness or starvation.",
+          "high_explanation": "High Free T3 is associated with hyperthyroidism, particularly T3-toxicosis (where only T3 is elevated while T4 is normal)."
+        }
+      }
+    },
+    {
+      "id": "lipid",
+      "name": "Lipid Profile",
+      "description": "Measures cholesterol and triglycerides to assess cardiovascular (heart disease) risk.",
+      "markers": {
+        "Total Cholesterol": {
+          "min": 0, "max": 200, "unit": "mg/dL",
+          "description": "Total amount of cholesterol in the blood. Includes both LDL (bad) and HDL (good) cholesterol.",
+          "low_explanation": "Very low cholesterol (<150 mg/dL) may indicate malnutrition, hyperthyroidism, or liver disease, though it is rare.",
+          "high_explanation": "High total cholesterol (>200 mg/dL) raises risk of atherosclerosis (arterial plaque), heart attack, and stroke. Diet, exercise, and statins are the main interventions."
+        },
+        "LDL Cholesterol": {
+          "min": 0, "max": 100, "unit": "mg/dL",
+          "description": "Low-Density Lipoprotein — known as 'bad' cholesterol that deposits on artery walls.",
+          "low_explanation": "Very low LDL is generally beneficial. Some statins and PCSK9 inhibitors intentionally drive LDL very low for heart disease prevention.",
+          "high_explanation": "High LDL (>130 mg/dL, or >70 for heart disease patients) significantly raises cardiovascular risk. Reduce via a low-saturated-fat diet, regular exercise, and statins if needed."
+        },
+        "HDL Cholesterol": {
+          "min": 40, "max": 60, "unit": "mg/dL",
+          "description": "High-Density Lipoprotein — known as 'good' cholesterol that helps remove LDL from arteries.",
+          "low_explanation": "Low HDL (<40 mg/dL) is a major independent risk factor for heart disease. Associated with smoking, obesity, inactivity, and a high-carb diet.",
+          "high_explanation": "High HDL (>60 mg/dL) is cardioprotective and is considered a negative risk factor for heart disease. Exercise is the best way to raise HDL."
+        },
+        "Triglycerides": {
+          "min": 0, "max": 150, "unit": "mg/dL",
+          "description": "A type of fat (lipid) found in the blood. High levels are a risk factor for pancreatitis and cardiovascular disease.",
+          "low_explanation": "Low triglycerides are generally not a concern.",
+          "high_explanation": "High triglycerides (>150 mg/dL) are associated with metabolic syndrome, obesity, diabetes, excessive alcohol consumption, and high-carb diet. Very high levels (>500) can cause acute pancreatitis."
+        }
+      }
+    }
+  ]
+}

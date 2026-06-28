@@ -1,0 +1,9 @@
+/* Minimal reset — all layout is in App.css */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+button, input { font-family: inherit; }
+a { color: inherit; }
+img, svg { display: block; max-width: 100%; }
