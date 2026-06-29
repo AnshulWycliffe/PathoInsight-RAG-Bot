@@ -1,11 +1,24 @@
-
-# PathoInsight 🔬
+<h1>
+  <img src="icon.png" width="30" height="30" style="vertical-align: middle;">
+  PathoInsight
+</h1>
+<img src="thumbnail.png" style="vertical-align: middle;">
 
 > **An AI-powered Retrieval-Augmented Generation (RAG) assistant for demystifying pathology reports.**
 
 PathoInsight helps patients understand their lab reports (CBC, LFT, KFT, Thyroid, Lipid profiles) by combining local document parsing, vector-based semantic search, and Google Gemini's advanced LLM with live Google Search grounding. It provides an empathetic, knowledgeable medical AI assistant that explains complex medical terminology in plain language.
-<img src="thumbnail.png" style="vertical-align: middle;">
 
+![Node.js](https://img.shields.io/badge/Node.js-v18+-339933?style=flat-square&logo=node.js)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python)
+![React](https://img.shields.io/badge/React-FFFFFF?style=flat-square&logo=react)
+![Vite](https://img.shields.io/badge/Vite-FFFFFF?style=flat-square&logo=vite)
+![FastAPI](https://img.shields.io/badge/FastAPI-FFFFFF?style=flat-square&logo=fastapi)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy)
+![Google Gemini](https://img.shields.io/badge/Google-Gemini-4285F4?style=flat-square&logo=google)
+![Gemini 2.5 Flash](https://img.shields.io/badge/LLM-Gemini_2.5_Flash-4285F4?style=flat-square)
+![text-embedding-004](https://img.shields.io/badge/Embedding-text--embedding--004-34A853?style=flat-square)
+![pdfplumber](https://img.shields.io/badge/pdfplumber-PDF_Parser-orange?style=flat-square)
 ---
 
 ## ⚠️ Medical Disclaimer
