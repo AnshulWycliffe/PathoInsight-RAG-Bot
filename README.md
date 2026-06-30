@@ -1,5 +1,5 @@
 <h1>
-  <img src="icon.png" width="30" height="30" style="vertical-align: middle;">
+  <img src="icon.png" width="40" height="40" style="vertical-align: middle;">
   PathoInsight
 </h1>
 <img src="thumbnail.png" style="vertical-align: middle;">
@@ -59,7 +59,7 @@ Medical reports are often filled with complex terminology, abbreviations, and nu
 
 PathoInsight is built with a modern, decoupled architecture designed for speed, low overhead, and accurate AI responses.
 
-> **For a deep dive into the data flow and RAG pipeline, read the full [ARCHITECTURE.md](file:///C:/Users/wycli/.gemini/antigravity/scratch/pathology-rag-bot/ARCHITECTURE.md).**
+> **For a deep dive into the data flow and RAG pipeline, read the full [ARCHITECTURE.md](./ARCHITECTURE.md).**
 
 ### System Diagram
 

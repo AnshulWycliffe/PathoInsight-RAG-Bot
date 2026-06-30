@@ -59,11 +59,10 @@ html, body {
 .hdr-brand { display: flex; align-items: center; gap: 10px; }
 .hdr-icon {
   width: 34px; height: 34px;
-  background: linear-gradient(135deg, #0d9488, #2563eb);
   border-radius: 8px;
   display: grid; place-items: center;
 }
-.hdr-icon svg { width: 18px; height: 18px; stroke: #fff; fill: none; stroke-width: 2.2; stroke-linecap: round; }
+.hdr-icon img { content: url(../public/icon.png);}
 .hdr-title { font-size: 16px; font-weight: 700; color: var(--t1); }
 .hdr-title span { color: var(--teal); }
 .hdr-sub { font-size: 11px; color: var(--t4); }
@@ -270,7 +269,7 @@ html, body {
 }
 .msg.bot  .av { background: linear-gradient(135deg, #0d9488, #2563eb); }
 .msg.user .av { background: #f3f4f6; border: 1px solid var(--border); }
-.av svg { width: 15px; height: 15px; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.av svg { width: 20px; height: 20px; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .msg.bot  .av svg { stroke: #fff; }
 .msg.user .av svg { stroke: var(--t3); }
 
@@ -299,7 +298,7 @@ html, body {
 @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
 
 /* ── Citations ──────────────────────────────── */
-.cites { margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--border); }
+.cites { display: grid; grid-template-columns: 1fr 1fr 1fr; margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--border); }
 .cites-lbl { font-size: 10.5px; font-weight: 600; text-transform: uppercase; letter-spacing: .4px; color: var(--t4); margin-bottom: 4px; }
 .cite-a {
   display: flex; align-items: center; gap: 4px;
@@ -364,7 +363,7 @@ html, body {
   padding: 8px 0;
   border-top: 1px solid var(--border);
   text-align: center;
-  font-size: 11px;
-  color: var(--t4);
+  font-size: 14px;
+  color: var(--t1);
   line-height: 1.4;
 }
