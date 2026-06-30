@@ -40,7 +40,7 @@ Medical reports are often filled with complex terminology, abbreviations, and nu
 3. **Explaining** the findings in plain, empathetic language via an interactive chat interface.
 4. **Grounding** its answers using live Google Search to ensure responses reflect current medical guidelines and literature.
 
-### Demo Video Link: [LINK](https://youtu.be/Bb2GE9WdUyI?si=hANR-krpAZygaD9M)
+## Demo Video Link: [LINK](https://youtu.be/Bb2GE9WdUyI?si=hANR-krpAZygaD9M)
 
 **The Goal:** Empower patients to have more informed and meaningful conversations with their doctors.
 
